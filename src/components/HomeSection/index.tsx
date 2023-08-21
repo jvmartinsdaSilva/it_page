@@ -11,7 +11,7 @@ export const HomeSection = () => {
         <S.Container>
             <S.Content>
                 <SubTitle color={Theme.Colors.white}>
-                    The best IT servicefor <br/> 
+                    The best IT service for <br/> 
                     your security
                 </SubTitle>
                 <Description color={Theme.Colors.white}>

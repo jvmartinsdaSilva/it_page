@@ -2,9 +2,9 @@ import styled from "styled-components"
 
 export const Container = styled.section`
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 501px;
-    background-image:url("/Rectangle2.png");
+    background-image:url("/HomeBackground.png");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ export const DiscoverContainer = styled.span`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: .5em 0;
+    margin: .8em 0;
 `
 
 export const Contact = styled.span`
