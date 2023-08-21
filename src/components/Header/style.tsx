@@ -6,5 +6,4 @@ export const HeaderContainer = styled.header`
     height: 50px;
     align-items: center;
     justify-content: space-between;
-    padding: .5em;
 `

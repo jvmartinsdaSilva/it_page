@@ -16,7 +16,7 @@ export const CardService = ({title, description, image}: CardServiceType) => {
             <S.IconService>
                 <img src={image} />
             </S.IconService>
-                <SubTitle color={Theme.Colors.black}>{title}</SubTitle>
+                <SubTitle color={Theme.Colors.black} size=".7em">{title}</SubTitle>
                 <Description color={Theme.Colors.light_black}>{description}</Description>
         </S.CardContainer>
     )
