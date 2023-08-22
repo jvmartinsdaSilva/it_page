@@ -6,20 +6,25 @@ export const Container = styled.section`
     align-items: center;
     justify-content: center;
     
-    @media (max-width: 830px){
-        justify-content: space-evenly;
-    }
+
     @media (max-width: 706px){
+        width: 100%;
         flex-direction: column;
+        justify-content: center;
     }
 
     `
 
 export const ImgContainer = styled.div`
-    width: 30%;
-    margin: .5em;
-    position: relative;
-    padding: .5em;
+        margin: .5em;
+        position: relative;
+        padding: .5em;
+
+        @media (max-width: 706px){
+            margin: 1em auto;
+            transform: scale(0.85);
+            
+        }
 `
 
 export const RetangleBottom = styled.div`
@@ -48,7 +53,7 @@ export const RetangleMessage = styled.span`
     top: 0;
     left: -10px;
     text-align: center;
-`
+    `
 
 export const SubImage = styled.div`
     position: absolute;
@@ -57,16 +62,21 @@ export const SubImage = styled.div`
     display: flex;
     bottom: -10px;
     left: 205px;
-`
+    `
 
 export const InfoContainer = styled.div`
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    width: 20%;
     text-align: start;
     margin: 0 6em;
+
+    @media (max-width: 706px){
+        width: 80%;
+            
+    }
 `
 
 export const Info = styled.span`
