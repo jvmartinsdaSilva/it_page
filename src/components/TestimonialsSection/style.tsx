@@ -25,6 +25,7 @@ export const Container = styled.section`
 
         @media (max-width: 650px){
             display: none;
+            margin: 0;
         }        
 
     }
@@ -35,10 +36,10 @@ export const Container = styled.section`
         align-items: center;
         width: 100%;
         margin: 1em 0;
-
+        
     }
     
-`
+    `
 
 export const Testimonial = styled.div`
     display: flex;
@@ -47,7 +48,7 @@ export const Testimonial = styled.div`
     justify-content: space-between;
     padding: 1em 2em;
     width: 60%;
-
+    
     @media (max-width: 650px){
         width: 80%;
     }
@@ -61,13 +62,14 @@ export const TestiMonialsContainer = styled.div`
     display: flex;
     width: 80%;
     height: 250px;
-    margin-left: 10%;
+    margin-left: 15%;
     
     @media (max-width: 650px){
         flex-direction: column;
         align-items: center;
         height: auto;
         justify-content: start;
+        margin: 0;
     }
 `
 
@@ -76,4 +78,6 @@ export const InfosPeople = styled.span`
     font-weight: lighter;
     line-height: 1.6em;
     color: ${props => props.theme.Colors.white};
+    transform: rotate(180deg);
+
 `

@@ -9,7 +9,10 @@ export const Container = styled.div`
     height: 270px;
     position: relative;
     margin: .5em;
-    `
+    border-bottom: 2px solid ${props => props.theme.Colors.light_white};
+    padding-bottom: 3em;
+
+`
 
 export const Category = styled.span`
     display: flex;
@@ -22,7 +25,7 @@ export const Category = styled.span`
     border-radius: 10px;
     position: absolute;
     margin: 10px;
-    color: white;
+    color: ${props => props.theme.Colors.white};
     font-weight: bold;
 `
 

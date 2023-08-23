@@ -1,12 +1,11 @@
 import { SubTitle } from "../SubTittle"
 import { Description } from "../Description"
-
 import Image from "next/image"
 
 import * as S from "./style"
 import { Theme } from "@/Themes/Theme"
 
-export const SectionTestimonials = () => {
+export const TestimonialsSection = () => {
     return(
         <S.Container>
             <S.TestiMonialsContainer>
@@ -18,7 +17,10 @@ export const SectionTestimonials = () => {
                     />
             <S.Testimonial>
                 <SubTitle size="1em" color={Theme.Colors.white}> Satisfied Customers</SubTitle>
-                <Description color={Theme.Colors.white} font="Merriweather">Every detail has been taken care these team are realy amazing and talented! They can help me with fast and accurate solutions to all kinds of issues. Love it! Five stars for them.</Description>
+                <Description color={Theme.Colors.white}>
+                    Every detail has been taken care these team are realy amazing and talented!
+                    They can help me with fast and accurate solutions to all kinds of issues. Love it! Five stars for them.
+                    </Description>
                 <S.InfosPeople>
                     Joeby Rapga <br/>
                     Associate

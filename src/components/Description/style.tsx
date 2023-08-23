@@ -6,5 +6,5 @@ export const DescriptionContainer = styled.span`
     font-size: 13px;
     color: ${props => props.color};
     line-height: 1.5em;
-    font-family: ${props => props.font || "san-serif"};
+    font-family: ${props => props.font || "inherit"};
 `

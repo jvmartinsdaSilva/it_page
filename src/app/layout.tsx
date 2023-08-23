@@ -1,13 +1,19 @@
 "use client"
 
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Roboto, Ephesis } from 'next/font/google'
 
 import { GlobalStyle } from '@/Themes/Global'
 import { ThemeProvider } from 'styled-components'
 import { Theme } from '@/Themes/Theme'
 
 const inter = Inter({ subsets: ['latin'] })
+const ephesis = Ephesis({
+  weight: "400",
+  subsets: ['latin'],
+  display: 'swap',
+  variable: "--aspas"
+})
 
 // export const metadata: Metadata = {
 //   title: 'Create Next App',
@@ -20,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={ephesis.className}>
       <ThemeProvider theme={Theme}>
         <body>{children}</body>
         <GlobalStyle />
