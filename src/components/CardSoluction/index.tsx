@@ -20,7 +20,7 @@ export const CardSoluction = ({title, description ,image}: CardSoluctionType) =>
                 alt=""
             />
             <S.Title>{title}</S.Title>
-            <Description color={Theme.Colors.light_gray}>{description}</Description>
+            <Description color={Theme.Colors.gray}>{description}</Description>
         </S.CardContainer>
     )
 }

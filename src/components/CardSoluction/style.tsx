@@ -5,8 +5,19 @@ export const CardContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 175px;
+    width: 200px;
+    height: 300px;
     margin: 0 .5em;
+    padding: .25em;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+    &:hover{
+        border: 2px solid ${props => props.theme.Colors.blue_37};
+
+    }
 `
 
 export const Title = styled.span`

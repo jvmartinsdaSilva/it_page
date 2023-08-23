@@ -4,12 +4,13 @@ import * as S from "./style"
 
 type SubTittleType = {
     color: string,
-    children: React.ReactNode
+    children: React.ReactNode,
+    
 }
 
-export const Description = ({ color, children }: SubTittleType) => {
+export const Description = ({ color, children, ...props }: SubTittleType) => {
     return (
-        <S.DescriptionContainer color={color}>
+        <S.DescriptionContainer color={color} {...props}>
             <p>
                 {children}
             </p>
