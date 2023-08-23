@@ -10,6 +10,7 @@ import { TestimonialsSection } from "@/components/TestimonialsSection"
 import { ServiceSection } from "@/components/ServiceSecetion"
 import { SoluctionSecetion } from "@/components/SoluctionsSection"
 import { ContactContainer } from "@/components/ContactSection"
+import { Footer } from "@/components/Footer"
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <TestimonialsSection />
       <NewsSection />
       <ContactContainer />
+      <Footer />
     </>
   )
 }

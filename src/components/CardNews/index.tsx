@@ -25,7 +25,7 @@ export const CardNews = ({category, title, image, write}: CardNewType) => {
                 alt=""
                 />
             <S.Category>{category}</S.Category>
-            <SubTitle color={Theme.Colors.navy_blue} size=".7em" >{title}</SubTitle>
+            <SubTitle color={Theme.Colors.navy_blue} size=".6em" >{title}</SubTitle>
             <S.Write>
                 <Image
                     src={write.img}

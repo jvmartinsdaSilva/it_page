@@ -16,6 +16,7 @@ export const Theme = {
         dark_blue: "#1B3868",
         navy_blue_dark: "#12141D",
         navy_blue: "#16133E",
-        blue_transparent: "#16133e72"
+        blue_transparent: "#16133e72",
+        ice_blue: "#F7F8FA"
     }
 }

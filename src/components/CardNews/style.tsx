@@ -4,9 +4,9 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 250px;
-    height: 270px;
+    height: calc(270px + 3em);
     position: relative;
     margin: .5em;
     border-bottom: 2px solid ${props => props.theme.Colors.light_white};
