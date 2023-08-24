@@ -6,7 +6,7 @@ import { Theme } from "@/Themes/Theme"
 
 export const NewsSection = () => {
     return (
-        <S.Container>
+        <S.Container id="news">
             <SubTitle color={Theme.Colors.black} size="1.5em">Last News</SubTitle>
             <S.NewsList>
                 <CardNews

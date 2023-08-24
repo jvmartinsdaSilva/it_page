@@ -8,9 +8,9 @@ import { Theme } from "@/Themes/Theme"
 
 export const HomeSection = () => {
     return(
-        <S.Container>
+        <S.Container id="home">
             <S.Content>
-                <SubTitle color={Theme.Colors.white}>
+                <SubTitle color={Theme.Colors.white} size=".7em">
                     The best IT service for <br/> 
                     your security
                 </SubTitle>

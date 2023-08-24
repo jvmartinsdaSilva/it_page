@@ -7,7 +7,7 @@ export const LogoSpinfluence = () => {
     return(
             <Image
             alt="logo"
-            width={160}
+            width={120}
             height={46}
             src="/Logo.png" />
 

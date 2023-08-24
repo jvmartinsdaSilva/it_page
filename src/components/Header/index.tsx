@@ -4,9 +4,12 @@ import * as S from "./style"
 
 
 export const Header = () => {
-    return(
+    return (
         <S.HeaderContainer>
-            <LogoSpinfluence />
+            <a href="#home">
+                <LogoSpinfluence />
+
+            </a>
             <Navegation />
         </S.HeaderContainer>
     )

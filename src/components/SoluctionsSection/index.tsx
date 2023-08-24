@@ -8,7 +8,7 @@ import { Theme } from "@/Themes/Theme"
 
 export const SoluctionSecetion = () => {
     return(
-        <S.Container>
+        <S.Container >
             <S.Title>
                 <SubTitle size="1em" color={Theme.Colors.medium_black}>IT solutions foryour business.</SubTitle>
                 <Description color={Theme.Colors.medium_black}>Hub IT allows your business and technology computers to store, transmit, analyze,and manipulate big data in the digital world</Description>

@@ -9,7 +9,7 @@ import { Theme } from "@/Themes/Theme"
 
 export const CompanySection = () => {
     return(
-        <S.Container>
+        <S.Container id="soluctions">
             <S.ImgContainer>
                 <Image 
                 src="/company/image1.png"
