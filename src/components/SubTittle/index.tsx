@@ -5,7 +5,7 @@ import * as S from "./style"
 
 type SubTittleType = {
     color: string,
-    size: string,
+    size?: string,
     children: React.ReactNode
 }
 

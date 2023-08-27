@@ -17,4 +17,15 @@ export const GlobalStyle = createGlobalStyle`
         font-family: sans-serif;
     }
 
+    body::-webkit-scrollbar{
+        width: 12px;
+    }
+
+    body::-webkit-scrollbar-track{
+        background: transparent;
+    }
+    
+    body::-webkit-scrollbar-thumb{
+        background: ${props => props.theme.Colors.blue};
+    }
 `

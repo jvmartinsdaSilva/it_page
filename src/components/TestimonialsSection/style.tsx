@@ -78,6 +78,4 @@ export const InfosPeople = styled.span`
     font-weight: lighter;
     line-height: 1.6em;
     color: ${props => props.theme.Colors.white};
-    transform: rotate(180deg);
-
 `

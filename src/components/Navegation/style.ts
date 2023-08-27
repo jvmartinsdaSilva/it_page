@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 
 export const Nav = styled.nav`
     display: flex;
-    width: 50%;
+    width: 55%;
     align-items: center;
     justify-content: space-between;
     
@@ -15,7 +15,7 @@ export const NavItem = styled.a`
     color: ${props => props.theme.Colors.black};
     cursor: pointer;
     text-decoration: none;
-    
+    text-align: center;
     a{
         color: inherit;
     }

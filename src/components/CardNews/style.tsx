@@ -1,16 +1,29 @@
 import styled from "styled-components"
 
+// export const Container = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     align-items: start;
+//     justify-content: space-evenly;
+//     width: 250px;
+//     height: calc(270px + 3em);
+//     position: relative;
+//     margin: .5em;
+//     border-bottom: 2px solid ${props => props.theme.Colors.light_white};
+//     border: 1px solid blue;
+
+// `
+
+
 export const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px; 
     width: 250px;
-    height: calc(270px + 3em);
+    height: 270px;
     position: relative;
     margin: .5em;
     border-bottom: 2px solid ${props => props.theme.Colors.light_white};
-    padding-bottom: 3em;
 
 `
 
@@ -24,7 +37,8 @@ export const Category = styled.span`
     background: ${props => props.theme.Colors.blue_transparent};
     border-radius: 10px;
     position: absolute;
-    margin: 10px;
+    top: 5px;
+    left: 2px;
     color: ${props => props.theme.Colors.white};
     font-weight: bold;
 `
